@@ -1,7 +1,6 @@
 /* RESET */
 *{
     margin: 0;
-    padding: 0;
     box-sizing: border-box;
 }
 /* /RESET */
@@ -64,11 +63,15 @@ h1{
 /* Section: ARTICLE*/
 .article{
     margin-top:20px;
-    font-size: 27px;
+    font-size: 25px;
 }
 
 .article span{
     background-color: #fdfd00;
+}
+
+.article ul{
+    margin-top: 35px;
 }
 
 /* /Section: ARTICLE*/

@@ -75,4 +75,28 @@ h1{
 }
 
 /* /Section: ARTICLE*/
+
+/* Section:TABLE */
+table{
+    width: 100%;
+    margin-top:35px;
+    border-collapse: collapse;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+td{
+    padding:30px;
+}
+
+thead{
+    background-color: #20a9e5;
+    color: white;
+}
+
+.table-colored{
+    background-color: #b1e5f2;
+}
+/* /Section: TABLE */
+
 /* /MAIN */

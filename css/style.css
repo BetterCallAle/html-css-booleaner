@@ -25,6 +25,8 @@ header img{
 /* /HEADER */
 
 /* MAIN */
+
+/* Section:TITLE */
 .container{
     width: 99%;
     margin: auto;
@@ -37,6 +39,7 @@ h1{
 
 .title p{
     color: #8d8d8d;
+    font-weight: bold;
 }
 
 .title p a{
@@ -44,17 +47,21 @@ h1{
     color: #5bbfeb;
 }
 
-.autor{
+.author{
     font-size: 25px;
-    font-weight: bold;
 }
 
 .title-img{
     margin-top: 25px;
-    height: 600px;
+    /* height: 600px; */
 }
 
 .title-img img{
    height: 100%;
 }
+/* /Section:TITLE */
+
+/* Section: ARTICLE*/
+
+/* /Section: ARTICLE*/
 /* /MAIN */

@@ -81,12 +81,12 @@ table{
     width: 100%;
     margin-top:35px;
     border-collapse: collapse;
-    font-size: 18px;
+    font-size: 13px;
     font-weight: bold;
 }
 
 td{
-    padding:30px;
+    padding:15px;
 }
 
 thead{

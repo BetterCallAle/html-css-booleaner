@@ -1,8 +1,10 @@
+/* RESET */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+/* /RESET */
 
 /* HEADER */
 header{
@@ -21,3 +23,38 @@ header img{
     top:50%;
 }
 /* /HEADER */
+
+/* MAIN */
+.container{
+    width: 99%;
+    margin: auto;
+}
+
+h1{
+    font-size: 70px;
+    margin-top: 20px;
+}
+
+.title p{
+    color: #8d8d8d;
+}
+
+.title p a{
+    text-decoration: none;
+    color: #5bbfeb;
+}
+
+.autor{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.title-img{
+    margin-top: 25px;
+    height: 600px;
+}
+
+.title-img img{
+   height: 100%;
+}
+/* /MAIN */

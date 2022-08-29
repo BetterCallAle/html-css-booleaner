@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER */
+header{
+    height: 180px;
+    background-color: #4ea0ff;
+    background-image: url(../img/pattern.png);
+    background-repeat: repeat;
+    background-position:right top;
+    position:relative;
+}
+
+header img{
+    width:300px;
+    position:absolute;
+    left:5px;
+    top:50%;
+}
+/* /HEADER */

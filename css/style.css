@@ -81,7 +81,7 @@ table{
     width: 100%;
     margin-top:35px;
     border-collapse: collapse;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: bold;
 }
 
@@ -100,3 +100,40 @@ thead{
 /* /Section: TABLE */
 
 /* /MAIN */
+
+/* FOOTER */
+footer{
+    margin-top: 35px;
+}
+
+footer span{
+    color: #888888;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.box{
+    margin-top:15px;
+    width:300px;
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box h3{
+    color: white;
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+.first-image{
+    background-image: url(../img/monitor.jpg);
+    height: 100%;
+}
+
+.second-image{
+    background-image: url(../img/graph.jpg);
+    height: 100%;
+}
+
+/* /FOOTER */

@@ -5,31 +5,32 @@
 }
 /* /RESET */
 
+/* COMMON */
+.container{
+    width: 99%;
+    margin: auto;
+}
+/* /COMMON */
+
 /* HEADER */
 header{
-    height: 180px;
     background-color: #4ea0ff;
     background-image: url(../img/pattern.png);
+    background-size: 30%;
     background-repeat: repeat;
     background-position:right top;
-    position:relative;
 }
 
 header img{
     width:300px;
-    position:absolute;
-    left:5px;
-    top:50%;
+    margin-top: 40px;
+    margin-bottom: 10px;
 }
 /* /HEADER */
 
 /* MAIN */
 
 /* Section:TITLE */
-.container{
-    width: 99%;
-    margin: auto;
-}
 
 h1{
     font-size: 70px;
@@ -52,7 +53,6 @@ h1{
 
 .title-img{
     margin-top: 25px;
-
 }
 
 /* /Section:TITLE */
@@ -80,9 +80,7 @@ table{
     border-collapse: collapse;
     font-size: 20px;
     font-weight: bold;
-}
-
-td{
+    text-align: left;
     padding:30px;
 }
 
@@ -117,10 +115,11 @@ footer span{
     background-repeat: no-repeat;
 }
 
-.box h3{
+.box a{
     color: white;
     font-size: 25px;
-    margin-left: 10px;
+    text-decoration: none;
+    padding: 10px;
 }
 
 .first-image{
